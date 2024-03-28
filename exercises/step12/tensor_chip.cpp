@@ -10,7 +10,7 @@
 
 using Eigen::Tensor;
 
-TEST_CASE("Exercise 12.2: Chip", "[shapes]") {
+TEST_CASE("Exercise 12.2: Chip Operations", "[shapes]") {
 
     Tensor<int, 3> t_3d(3, 3, 3);
 

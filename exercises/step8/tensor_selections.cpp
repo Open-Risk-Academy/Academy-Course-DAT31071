@@ -10,7 +10,7 @@
 
 using Eigen::Tensor;
 
-TEST_CASE("Exercise 8.4: Selection", "[binary-operations]") {
+TEST_CASE("Exercise 8.4: Tensor Value Selection", "[binary-operations]") {
 
     Eigen::Tensor<bool, 2> ifT(3, 3);
     Eigen::Tensor<float, 2> thenT(3, 3);

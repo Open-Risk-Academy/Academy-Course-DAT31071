@@ -10,7 +10,7 @@
 
 using Eigen::Tensor;
 
-TEST_CASE("Exercise 10.1: Contraction", "[contractions]") {
+TEST_CASE("Exercise 10.1: Tensor Contraction", "[contractions]") {
 
     Eigen::Tensor<int, 2> A(2, 3);
     Eigen::Tensor<int, 2> B(3, 2);

@@ -10,7 +10,7 @@
 
 using Eigen::Tensor;
 
-TEST_CASE("Exercise 3.1. Initialization", "[initialization]") {
+TEST_CASE("Exercise 3.1. Initialization with Values", "[initialization]") {
 
     Tensor<int, 2> M(4, 3);
     M.setValues({

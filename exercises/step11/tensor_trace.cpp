@@ -10,7 +10,7 @@
 
 using Eigen::Tensor;
 
-TEST_CASE("Exercise 11.2: Trace", "[reductions]") {
+TEST_CASE("Exercise 11.2: Tensor Trace Operator", "[reductions]") {
 
     Tensor<float, 3> T1(5, 5, 5);
     T1.setRandom();

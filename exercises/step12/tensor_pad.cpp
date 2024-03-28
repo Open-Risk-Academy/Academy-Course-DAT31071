@@ -10,7 +10,7 @@
 
 using Eigen::Tensor;
 
-TEST_CASE("Exercise 12.8: Pad", "[shapes]") {
+TEST_CASE("Exercise 12.8: Padding Operations", "[shapes]") {
 
     Eigen::Tensor<int, 2> T(2, 3);
     T.setValues({{0, 1, 2},

@@ -10,7 +10,7 @@
 
 using Eigen::Tensor;
 
-TEST_CASE("Exercise 5.1: Arithmetic", "[elements-II]") {
+TEST_CASE("Exercise 5.1: Tensor Arithmetic", "[elements-II]") {
 
     Tensor<float, 2> t_2d(3, 3);
     t_2d.setConstant(1.0);

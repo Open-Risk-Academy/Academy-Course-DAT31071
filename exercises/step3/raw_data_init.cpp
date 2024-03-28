@@ -10,7 +10,7 @@
 
 using Eigen::Tensor;
 
-TEST_CASE("Exercise 3.3. Raw data", "[initialization]") {
+TEST_CASE("Exercise 3.3. Set Raw Tensor Data", "[initialization]") {
 
     int dim1 = 5;
     int dim2 = 5;

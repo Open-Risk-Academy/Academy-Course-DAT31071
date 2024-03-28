@@ -10,7 +10,7 @@
 
 using Eigen::Tensor;
 
-TEST_CASE("Exercise 12.6: Broadcast", "[shapes]") {
+TEST_CASE("Exercise 12.6: Broadcast Operations", "[shapes]") {
 
     Eigen::Tensor<int, 2> s(2, 2);
     s.setZero();

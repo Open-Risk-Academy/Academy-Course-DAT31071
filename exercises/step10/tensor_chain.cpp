@@ -10,7 +10,7 @@
 
 using Eigen::Tensor;
 
-TEST_CASE("Exercise 10.2: Chain", "[contractions]") {
+TEST_CASE("Exercise 10.3: Chained Contractions", "[contractions]") {
 
     Eigen::Tensor<double, 4> T(3, 3, 3, 3);
     T.setRandom();
@@ -28,7 +28,6 @@ TEST_CASE("Exercise 10.2: Chain", "[contractions]") {
     Eigen::IndexPairList<Eigen::type2indexpair<1, 1>> dim1;
     Eigen::IndexPairList<Eigen::type2indexpair<2, 1>> dim2;
     Eigen::IndexPairList<Eigen::type2indexpair<3, 1>> dim3;
-
 
     Eigen::Tensor<double, 4> res1 = T.contract(Q, dim0);
 

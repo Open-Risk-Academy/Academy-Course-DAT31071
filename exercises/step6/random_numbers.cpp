@@ -10,7 +10,7 @@
 
 using Eigen::Tensor;
 
-TEST_CASE("Exercise 6.1: Random Numbers", "[random]") {
+TEST_CASE("Exercise 6.1: Generating Random Numbers", "[random]") {
 
     Eigen::Tensor<int, 1> t_1d(3);
     Eigen::Tensor<float, 2> t_2d(3, 3);

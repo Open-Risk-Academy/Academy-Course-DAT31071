@@ -11,7 +11,7 @@
 
 using Eigen::Tensor;
 
-TEST_CASE("Exercise 3.2. Symmetry", "[initialization]") {
+TEST_CASE("Exercise 3.2. Tensor Symmetries", "[initialization]") {
 
     Eigen::SGroup<Eigen::AntiSymmetry<0,1>> simple;
     Tensor<int, 2> eps(3,3);

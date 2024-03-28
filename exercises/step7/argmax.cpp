@@ -10,7 +10,7 @@
 
 using Eigen::Tensor;
 
-TEST_CASE("Exercise 7.4: ArgMax", "[unary-ops]") {
+TEST_CASE("Exercise 7.4: ArgMax Operator", "[unary-ops]") {
 
     Tensor<float, 3> T(3,3,3);
     T.setRandom();

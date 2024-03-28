@@ -10,7 +10,7 @@
 
 using Eigen::Tensor;
 
-TEST_CASE("Exercise 12.4: Stride", "[shapes]") {
+TEST_CASE("Exercise 12.4: Stride Operations", "[shapes]") {
 
     Eigen::Tensor<int, 2> T(4, 4);
     T.setValues({{0,  1,  2,  3},

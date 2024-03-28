@@ -10,7 +10,7 @@
 
 using Eigen::Tensor;
 
-TEST_CASE("Exercise 5.3: Casting", "[elements-II]") {
+TEST_CASE("Exercise 5.3: Casting Datatypes", "[elements-II]") {
 
     Tensor<std::complex<double>, 2> c_2d(3, 3);
     c_2d.setConstant(std::complex<double>(1, 0));

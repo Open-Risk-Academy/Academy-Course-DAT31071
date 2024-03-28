@@ -10,7 +10,7 @@
 
 using Eigen::Tensor;
 
-TEST_CASE("Exercise 7.1: Minus Operator", "[unary-ops]") {
+TEST_CASE("Exercise 7.1: The Minus Operator", "[unary-ops]") {
 
 
     Eigen::Tensor<float, 2> t_float(3, 3);

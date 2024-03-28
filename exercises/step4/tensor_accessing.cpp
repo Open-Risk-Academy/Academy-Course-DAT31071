@@ -10,7 +10,7 @@
 
 using Eigen::Tensor;
 
-TEST_CASE("Exercise 4.1: Accessing", "[elements-I]") {
+TEST_CASE("Exercise 4.1: Accessing Tensor Values", "[elements-I]") {
 
     Eigen::Tensor<float, 3> T;
     T.resize(3,3,3);

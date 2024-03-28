@@ -10,7 +10,7 @@
 
 using Eigen::Tensor;
 
-TEST_CASE("Exercise 2.1. Tensor Classes", "[classes]") {
+TEST_CASE("Exercise 2.1. Tensor Classes (Datatypes)", "[classes]") {
 
 // Scalar
     Tensor<int, 0> t_0d;

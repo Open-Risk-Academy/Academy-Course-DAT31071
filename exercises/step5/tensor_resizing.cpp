@@ -10,7 +10,7 @@
 
 using Eigen::Tensor;
 
-TEST_CASE("Exercise 5.2: Resizing", "[elements-II]") {
+TEST_CASE("Exercise 5.2: Tensor Resizing", "[elements-II]") {
 
     Tensor<double, 2> J(2,2);
     std::cout << "J size: " << J.size() << std::endl;

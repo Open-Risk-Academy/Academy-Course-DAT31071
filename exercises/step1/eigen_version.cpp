@@ -10,7 +10,7 @@
 
 using Eigen::Tensor;
 
-TEST_CASE("Exercise 1.1. Eigen Version", "[environment]") {
+TEST_CASE("Exercise 1.1. Find Installed Eigen Version", "[environment]") {
 
     std::stringstream ss;
     ss.str("");

@@ -10,7 +10,7 @@
 
 using Eigen::Tensor;
 
-TEST_CASE("Exercise 4.3: Printing", "[elements-I]") {
+TEST_CASE("Exercise 4.3: Printing Values", "[elements-I]") {
 
     Tensor<int, 1> t_1d(3);
     Tensor<int, 2> t_2d(3, 3);

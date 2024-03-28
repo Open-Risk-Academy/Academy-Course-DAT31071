@@ -25,8 +25,7 @@ TEST_CASE("Exercise 10.2: Double Contraction", "[contractions]") {
     std::cout << "A: " << std::endl << A << std::endl;
     std::cout << "AA: " << std::endl << AA << std::endl;
 
-    Eigen::array<Eigen::IndexPair<int>, 2> double_contraction2 = {Eigen::IndexPair<int>(0, 1),
-                                                                 Eigen::IndexPair<int>(1, 0)};
+    Eigen::array<Eigen::IndexPair<int>, 2> double_contraction2 = {Eigen::IndexPair<int>(0, 1), Eigen::IndexPair<int>(1, 0)};
 
     Eigen::Tensor<int, 0> AAp = A.contract(A, double_contraction2);
     std::cout << "AAp: " << std::endl << AAp << std::endl;

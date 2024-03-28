@@ -10,7 +10,7 @@
 
 using Eigen::Tensor;
 
-TEST_CASE("Exercise 6.2: Fixing Seed", "[random]") {
+TEST_CASE("Exercise 6.2: Fixing the Seed", "[random]") {
 
     srand((unsigned int) time(0));
     Eigen::Tensor<float, 2> t_2d(3, 3);

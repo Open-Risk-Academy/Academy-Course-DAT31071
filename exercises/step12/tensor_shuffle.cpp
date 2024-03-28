@@ -10,7 +10,7 @@
 
 using Eigen::Tensor;
 
-TEST_CASE("Exercise 12.1: Shuffle", "[shapes]") {
+TEST_CASE("Exercise 12.1: Shuffle Tensors", "[shapes]") {
 
     Tensor<float, 3> input(3,3,3);
     input.setRandom();

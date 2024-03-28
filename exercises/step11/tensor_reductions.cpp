@@ -10,7 +10,7 @@
 
 using Eigen::Tensor;
 
-TEST_CASE("Exercise 11.1: Reductions", "[reductions]") {
+TEST_CASE("Exercise 11.1: Tensor Reductions", "[reductions]") {
 
     Eigen::Tensor<float, 2> a(2, 3);
     a.setValues({{1,  2, 5},

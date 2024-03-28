@@ -1,3 +1,8 @@
+# (c) 2023  - 2024 Open Risk (https://www.openriskmanagement.com)
+# Tensor Calculations with the Eigen C++ Library (Open Risk Academy Course)
+# Course URL: https://www.openriskacademy.com/course/view.php?id=71
+# Tested with Eigen 3.4.0 https://gitlab.com/libeigen/eigen/-/releases/3.4.0
+
 cmake_minimum_required(VERSION 3.26)
 
 set(PROJECT_VENDOR "Open Risk (https://www.openriskmanagement.com")

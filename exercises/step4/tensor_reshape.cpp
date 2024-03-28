@@ -10,7 +10,7 @@
 
 using Eigen::Tensor;
 
-TEST_CASE("Exercise 4.2: Reshape", "[elements-I]") {
+TEST_CASE("Exercise 4.2: Reshape Tensor", "[elements-I]") {
 
     Tensor<float, 1> input(125);
     std::iota(input.data(), input.data() + input.size(), 1);

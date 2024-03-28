@@ -10,7 +10,7 @@
 
 using Eigen::Tensor;
 
-TEST_CASE("Exercise 12.7: Concatenate", "[shapes]") {
+TEST_CASE("Exercise 12.7: Concatenate Tensors", "[shapes]") {
 
     Tensor<int, 2> left(2, 2);
     Tensor<int, 2> right(3, 2);

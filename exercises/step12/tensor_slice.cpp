@@ -10,7 +10,7 @@
 
 using Eigen::Tensor;
 
-TEST_CASE("Exercise 12.3: Slice", "[shapes]") {
+TEST_CASE("Exercise 12.3: Slice Operations", "[shapes]") {
 
     Tensor<int, 1> V(10);
     V.setValues({0, 1, 2, 3, 4, 5, 6, 7, 8, 9});

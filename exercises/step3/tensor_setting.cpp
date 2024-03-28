@@ -10,7 +10,7 @@
 
 using Eigen::Tensor;
 
-TEST_CASE("Exercise 3.4: Setting", "[initialization]") {
+TEST_CASE("Exercise 3.4: Setting Values", "[initialization]") {
 
     Eigen::Tensor<int, 1> t_1d(3);
     Eigen::Tensor<int, 2> t_2d(3, 3);
