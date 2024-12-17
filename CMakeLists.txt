@@ -6,7 +6,7 @@
 cmake_minimum_required(VERSION 3.26)
 
 set(PROJECT_VENDOR "Open Risk (https://www.openriskmanagement.com")
-set(PROJECT_CONTACT "info@openrisk.eu")
+set(PROJECT_CONTACT "info@openriskmanagement.com")
 set(PROJECT_URL "https://github.com/Open-Risk-Academy/Academy-Course-DAT31071")
 set(PROJECT_DESCRIPTION "Open Risk Academy Course DAT31071 Exercises")
 

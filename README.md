@@ -98,5 +98,7 @@ The course comprises 14 Steps covering the following topics
 
 ## Course Exercises
 
-The exercises concern writing C++ small snippets of code that accomplish a certain task. The form of each exercise is as a Catch2 test. Indicative solutions are provided in this repository.
+The exercises involve writing C++ small snippets of code that accomplish a certain task. The suggest form for each exercise solution is as a *Catch2 Test*. 
+
+Indicative solutions to exercises are provided in this repository.
 
